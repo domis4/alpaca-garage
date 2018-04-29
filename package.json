@@ -1,0 +1,38 @@
+{
+  "name": "alpaca-garage",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "ISC",
+  "scripts": {
+    "start": "webpack-dev-server --config ./webpack.config.js --mode development"
+  },
+  "dependencies": {
+    "flow-type": "^1.0.1",
+    "pure-css": "^1.0.4",
+    "react": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "recompose": "^0.27.0",
+    "redux": "^4.0.0",
+    "redux-saga": "^0.16.0",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "eslint": "^4.19.1",
+    "eslint-config-8select-flow": "^1.0.3",
+    "eslint-plugin-react": "^7.7.0",
+    "jest": "^22.4.3",
+    "prettier": "^1.12.1",
+    "react-dom": "^16.3.2",
+    "react-hot-loader": "^4.1.2",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.6.0",
+    "webpack-cli": "^2.0.15",
+    "webpack-dev-server": "^3.1.3"
+  }
+}
